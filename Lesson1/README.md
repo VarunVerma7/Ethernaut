@@ -1,9 +1,11 @@
-1)Fallback
+# Fallback
 
 You will beat this level if
 
 1. you claim ownership of the contract
 2. you reduce its balance to 0
+
+# Solution
 
 Ultimately, to drain the function we need to call the withdraw function, however only the owner can call this, therefore we need to become the owner
 
